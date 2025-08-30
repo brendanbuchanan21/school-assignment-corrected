@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+       <!-- using the same class name to apply navbar style for all pages -->
+     <div class="header-container">
+    <header class="navbar-header">
+        <!-- name and logo of website top left corner of navbar on website -->
+        <h4><a href="./index.html" class="header-name">Brendan Buchanan</a></h4>
+        <img src="./images/brendan_portfolio_logo.png" alt="Placeholder Logo" class="logo">
+    </header>
+
+    <nav class="top-navbar">
+        <ul class="top-nav">
+            <!-- All links in the top navbar of the website-->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="interests.html">Interests</a></li>
+        </ul>
+    </nav>
+    </div>
+
+       <!-- main-hero container for about page -->
+    <div class="main-content-about">
+        <div class="about-h1-container">
+            <h1>A little history of me</h1>
+            <p>My name is Brendan and I was born in the mountains of Montana. I am currently working full time as a software developer while finishing out a computer science degree. In the past I have completed full stack applications that solved real problems of mine. I am excited about future opportunities and watching the landscape of tech forever shift.</p>
+            
+            <!--table talking about arbitrary reference to skill level-->
+            <table class="about-table">
+                <tr>
+                    <th>Skill</th>
+                    <th>Experience Level</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Advanced</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermediate</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Advanced</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>Intermediate</td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </div>
+
+           <!-- image in its own div to properly structure the document with css -->
+        <div class="about-image-container">
+            <img src="./images/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.avif" alt="">
+        </div>
+
+    </div>
+
+     <footer>
+        <nav>
+            <!-- this is the footer of the website that will be on every page showing relevant contact information -->
+            <a href="#">Linkedin</a> | 
+            <a href="#">Github</a>
+        </nav>
+        <p>&copy; 2025 Brendan Buchanan. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+</html>
